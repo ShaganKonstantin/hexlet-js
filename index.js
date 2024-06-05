@@ -1,8 +1,4 @@
 import _ from "lodash";
+import {findLast} from './src/index.js';
 
-console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
-
-const numbers = [1, 3, 6, 2, -11];
-const result = numbers.sort((a, b) => a - b);
-console.log(result);
+console.log(findLast([3, 34, 12]));
